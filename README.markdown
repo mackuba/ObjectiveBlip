@@ -1,8 +1,8 @@
 # ObjectiveBlip
 
 ObjectiveBlip is a Cocoa library that lets you connect to [blip.pl](http://blip.pl), Polish microblogging service,
-via its REST API. It was extracted from [xBlip](http://github.com/psionides/xblip) project (prototype iPhone client for
-Blip) and it's also used in [MacBlip](http://github.com/psionides/MacBlip) (MacOSX Blip client). You can use it to
+via its REST API. It was extracted from [xBlip](http://github.com/jsuder/xblip) project (prototype iPhone client for
+Blip) and it's also used in [MacBlip](http://github.com/jsuder/MacBlip) (MacOSX Blip client). You can use it to
 create your own Blip clients in ObjectiveC/Cocoa if you want. It's pretty simple at the moment though, so don't expect
 much...
 
@@ -15,7 +15,7 @@ much...
   * a JSON parser - [YAJL](http://github.com/gabriel/yajl-objc),
   [JSON Framework](http://stig.github.com/json-framework), [TouchJSON](https://github.com/schwa/TouchJSON)
   or [JSONKit](https://github.com/johnezang/JSONKit)
-  * [PsiToolkit](http://github.com/psionides/PsiToolkit) with Models, Network and Security modules enabled
+  * [PsiToolkit](http://github.com/jsuder/PsiToolkit) with Models, Network and Security modules enabled
 * import `ObjectiveBlip.h` somewhere, the best place is probably your `Prefix.pch` file
 
 ## Usage instructions
